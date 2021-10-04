@@ -13,8 +13,8 @@ $paginator = new Paginator();
 $paginator->qtyrec = 5;
 $paginator->table = 'region';
 $paginator->file = basename(__FILE__);
-$paginator->user = "root";
-$paginator->pass = "root";
+$paginator->user = "mysql";
+$paginator->pass = "";
 $paginator->database = "bd";
 $paginator->prepare($pdo);
 
